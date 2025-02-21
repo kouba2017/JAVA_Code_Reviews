@@ -1,23 +1,35 @@
-# Hospital Admission App
+# 🏥 Hospital Admission App
 
-## Description:
-- A patient and a doctor are both a person. A doctor has a speciality, availability, patients list when a patient has an addmissionDate and allergies to specify.
+## 📖 Description
+The **Hospital Admission App** manages doctors and patients efficiently. 
+- 🧑‍⚕️ **Doctor** has a **specialty, availability,** and a **patient list**.
+- 🏥 **Patient** has an **admission date** and **allergy information**.
+- 🧑 **Person** is the base class for both **Doctor** and **Patient**.
 
-## Functionalities:
-* Person: 
-    - Give it 3 constructors:  
-        + Default constructor
-        + No args constructor
-        + Parameterized Constructor
+## ⚙️ Functionalities
+### 🏷️ **Person Class:**
+- Implement three constructors:  
+  1️⃣ Default constructor
+  2️⃣ No-argument constructor
+  3️⃣ Parameterized constructor
 
-* We want to display the patient's data when a doctor asks for it.
-* Check the doctor's availability before assigning a patient to him/her.
+### 🩺 **Doctor Functionalities:**
+- 🏥 Store a list of assigned patients.
+- ✅ Check availability before accepting a new patient.
+- 📋 Display all assigned patients.
 
+### 🤕 **Patient Functionalities:**
+- 📅 Store admission date and allergies.
+- 👀 Display patient details when requested by a doctor.
 
-## Goals: 
-* Get used to different constructors usage and instanciation
-* Implying Getters and setters (Encapsulation)
-* Implement a class in another
-* Inheritance with Super
-* Access modifiers usage for different member variables
+### 🔄 **General Functionalities:**
+- 🔗 Assign a patient to an available doctor.
+- 🚫 Prevent duplicate patient admissions.
+
+## 🎯 Goals
+- 🏗️ Get used to different constructors usage and instantiation
+- 🔐 Implementing Getters and Setters (Encapsulation)
+- 🏛️ Implement a class in another
+- 🏆 Inheritance with **Super**
+- 🔍 Access modifiers usage for different member variables
 
