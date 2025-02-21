@@ -16,14 +16,13 @@ The **Hospital Admission App** manages doctors and patients efficiently.
 ### 🩺 **Doctor Functionalities:**
 - 🏥 Store a list of assigned patients.
 - ✅ Check availability before accepting a new patient.
-- 📋 Display all assigned patients.
+- 🔗 Assign a patient to an available doctor.
 
 ### 🤕 **Patient Functionalities:**
 - 📅 Store admission date and allergies.
 - 👀 Display patient details when requested by a doctor.
 
-### 🔄 **General Functionalities:**
-- 🔗 Assign a patient to an available doctor.
+### 🔄 **Bonus Functionalities:**
 - 🚫 Prevent duplicate patient admissions.
 
 ## 🎯 Goals
